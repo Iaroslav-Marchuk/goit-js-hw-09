@@ -6,6 +6,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 
 
 
+
 const images = [
   {
     preview:
@@ -95,6 +96,3 @@ let lightBox = new SimpleLightbox('.gallery a', {
     animationSlide: true
 });
 
-lightBox.on('show.simplelightbox', function (event) {
-    event.preventDefault(); 
-    });
